@@ -338,7 +338,7 @@ export default function Home() {
         <div>
           <div className={styles.description}>
             Presale has started!!! If your address is whitelisted, Mint a
-            Crypto Dev 🥳
+            Cxo Nft 🥳
           </div>
           <button className={styles.button} onClick={presaleMint}>
             Presale Mint 🚀
@@ -360,15 +360,15 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Crypto Devs</title>
+        <title>Cxo Nft</title>
         <meta name="description" content="Whitelist-Dapp" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.main}>
         <div>
-          <h1 className={styles.title}>Welcome to Crypto Devs!</h1>
+          <h1 className={styles.title}>Welcome to Cxo!</h1>
           <div className={styles.description}>
-            Its an NFT collection for developers in Crypto.
+            Its a Cxo NFT collection.
           </div>
           <div className={styles.description}>
             {tokenIdsMinted}/20 have been minted
