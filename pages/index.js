@@ -110,7 +110,7 @@ export default function Home() {
         signer
       );
       // call the startPresale from the contract
-      const tx = await whitelistContract.startPresale();
+      const tx = await whitelistContract.startsPresale();
       setLoading(true);
       // wait for the transaction to get mined
       await tx.wait();
